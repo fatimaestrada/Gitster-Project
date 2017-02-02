@@ -19,7 +19,7 @@ import {GithubService} from './github.service';
     HttpModule
   ],
   providers: [GithubService],
-  bootstrap: [ProfileComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
 
