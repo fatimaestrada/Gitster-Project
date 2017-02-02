@@ -16,7 +16,9 @@ import { ProfileComponent } from './profile/profile.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [GithubService],
   bootstrap: [ProfileComponent]
 })
 export class AppModule { }
+
+import {GithubService} from './github.service';
