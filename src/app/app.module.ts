@@ -17,6 +17,6 @@ import { ProfileComponent } from './profile/profile.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ProfileComponent]
 })
 export class AppModule { }
