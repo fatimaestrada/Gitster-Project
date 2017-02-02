@@ -1,4 +1,14 @@
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<div class = "row">
+<div class = "col-md-12">
+<form class = "well">
+<div class = "form-group">
+<input type = "text" name = "username" class = "form-control" placeholder = "Enter
+GitHub Username..." [(ngModel)] = "username" (keyup) = "searchUser()">
+</div>
+</form>
+</div>
+</div>
 
 <div *ngIf="user" class="panel panel-default">
   <div class="panel-heading">
@@ -29,4 +39,5 @@
     </div>
   </div>
 </div>
+
 
