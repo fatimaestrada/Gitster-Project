@@ -8,5 +8,3 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works!';
 }
-
-import {GithubService} from '../github.service';
